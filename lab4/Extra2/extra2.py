@@ -7,7 +7,7 @@ email4="jsebastian.va@gmail.com"
 
 email=input('Enter your email:')
 
-regex = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$' #correct?
+regex = '^[a-z0-9]+[\ ._-]*[a-z0-9]+[@]\w+[.]\w{2,3}$' #correct?
 
 regexDomine='[@]\w+[.]\w{2,3}$'
 
